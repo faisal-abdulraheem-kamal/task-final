@@ -1,0 +1,10 @@
+/* 
+._my.div     not valid
+.my-div        valid
+.12my.div    not valid
+.%my.div     not valid
+.my@div      not valid
+.@my.div     not valid
+._my78div     valid
+.div          valid
+*/
