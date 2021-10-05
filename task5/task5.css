@@ -1,0 +1,33 @@
+div h1 {
+    font-size: 15px;
+    border: 5px solid;
+    border-color: #fa1c03;
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.div1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.div2 {
+    border-style: dashed;
+    background-color: #341f97;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-width: 5px;
+    color: #ecf0f1;
+    ;
+}
+
+.div3 {
+    border-style: dashed;
+    background-color: #bdc3c7;
+    color: #ecf0f1;
+    border-right: 5px;
+    border-left: 5px;
+    border-width: 5px;
+}
