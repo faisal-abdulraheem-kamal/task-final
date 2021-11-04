@@ -1,0 +1,202 @@
+
+    body{
+      background-color:#ffffff;
+      height:800px;
+      width:1400px;
+      margin-left: -19px;
+      padding-right: 89px;
+    }
+    .addre
+    {
+      background-color:#ced6e0;
+      padding: 18px;
+      margin: -32px;
+      width: 1747px;
+      height: 39px;
+    }
+    ul li{
+      display:inline;
+    }
+
+    .mess
+    {
+      font-size:20px ;
+      padding: 9px;
+      margin-left: 25px;
+      margin-top: 10px;
+      color: #2f3542;
+    }
+
+     .mail1
+    {
+      font-size:20px ;
+      padding: 9px;
+      margin-left: 37px;
+      margin-top: 10px;
+      color: #2f3542;
+      position:relative;
+      right:55px;
+    }
+
+
+    .mob
+   {
+     font-size:20px ;
+     padding: 9px;
+     margin-left: 39px;
+     margin-top: 10px;
+     color: #2f3542;
+     position: relative;
+     right: 75px;
+   }
+
+
+   .face
+   {
+      font-size: 20px;
+      padding: 9px;
+      margin-left: 254px;
+      margin-top: 10px;
+      margin-right: 50px;
+      color: #2f3542;
+      position: relative;
+      left: 560px;
+     }
+
+    .twit
+   {
+      font-size: 20px;
+      padding: 9px;
+      margin-left: 23px;
+      margin-top: 10px;
+      color: #2f3542;
+      position: relative;
+      left: 494px;
+   }
+
+
+   .inst
+  {
+    font-size:20px ;
+    padding: 9px;
+    margin-left: 24px;
+    margin-top: 10px;
+    color: #2f3542;
+    position: relative;
+    left: 475px;
+  }
+
+
+   h1{
+     padding:10px;
+     margin-left: 45px;
+     margin-top: 25px;
+     color:#c23616;
+     font-family:Copperplate, Papyrus, fantasy;
+   }
+
+   .i{
+     color:#70a1ff;
+   }
+
+   .a{
+     color:#ffa502;
+   }
+
+
+   .menu{
+
+      font-size: 25px;
+      padding-left: 590px;
+      margin: 10px 30px;
+      position: absolute;
+      top: 30px;
+   }
+    .ho
+    {
+      position:relative;
+      left:25px;
+    }
+
+    .ab
+    {
+      position:relative;
+      left:69px;
+    }
+    .ser
+    {
+      position:relative;
+      left:115px;
+    }
+
+    .pro
+    {
+      position:relative;
+      left:150px;
+    }
+    .cont
+    {
+      position:relative;
+      left:175px;
+    }
+
+   .sign::before{
+     content: "login";
+     position:relative;
+     left: -33px;
+     top: 2px;
+     font-size:20px;
+     color:#e74c3c;
+     border:3px solid;
+     border-radius: 15px;
+     padding: 4px 26px 6px 32px;
+     margin: 1px 2px 3px 350px;
+  }
+
+   .loream{
+     font-size: 35px;
+     font-family: Arial;
+     color:#e74c3c;
+     padding:55px;
+     margin-left:165px;
+   }
+
+   .pargh
+   {
+          font-size: 20px;
+          text-align: left;
+          margin-top: -60px;
+          margin-left: 35px;
+          display: inline-block;
+          width: 810px;
+   }
+
+
+   .read
+   {
+
+     font-size:22px;
+     font-family:cursive;
+     color:#e74c3c;
+     border:3px solid #e74c3c;
+     border-radius: 15px;
+     position:relative;
+     left:28px;
+     top:-250px;
+     padding: 0px 7px 5px 8px;
+     margin: -13px 4px 9px 5px;
+     width:109px;
+     height:30px;
+   }
+   .read:hover
+   {
+     display:block;
+     background-color: red;
+   }
+
+   img
+   {
+     position:relative;
+     left: 990px;
+     top: -180px;
+  }
