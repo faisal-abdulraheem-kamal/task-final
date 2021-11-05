@@ -1,0 +1,227 @@
+
+
+.A,
+.B,
+.C,
+.D {
+    margin: auto;
+    width: 500px;
+    height: 50px;
+    border: 1px solid;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    border-radius: 50px;
+    counter-increment: user_counter;
+
+}
+
+.A {
+    background-color: #48dbfb;
+    position: relative;
+    bottom: 478px;
+    left: 50px;
+}
+
+.A .once::before {
+    content: counter(user_counter);
+    background-color: #d2dae2;
+    width: 58px;
+    height: 35px;
+    border: 1px solid;
+    margin-top: 55px;
+    margin-left: 159px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ef5777;
+    padding-top: 9px;
+    position: absolute;
+    top: -48px;
+    left: -150px;
+    border-radius: 10px;
+}
+
+.A .once::after {
+    content: "";
+    border: 40px solid black;
+    border-color: transparent #d2dae2 transparent transparent;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: -10px;
+left: -60px;
+    background-size: cover;
+}
+
+.pic1::after {
+    content: "";
+    background-image: url("images/dauter.jpeg");
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 440px;
+  bottom: 7px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.B {
+    background-color: #ef5777;
+    position: relative;
+    bottom: 500px;
+    left: 50px;
+}
+
+.B .tonc::before {
+    content: counter(user_counter);
+    background-color: #0080ff;
+    width: 58px;
+    height: 35px;
+    border: 1px solid #1e272e;
+    margin-top: 160px;
+    margin-right: 160px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #b33939;
+    padding-top: 10px;
+    position: absolute;
+    top: -154px;
+right: -152px;
+    border-radius: 10px;
+}
+
+.B .tonc::after {
+    content: "";
+    border: 40px solid black;
+    border-color: transparent transparent transparent #0080ff;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: -12px;
+  right: -63px;
+    background-size: cover;
+}
+
+.pic2::before {
+    content: "";
+    background-image: url("images/girl.jpg");
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 442px;
+  bottom: 5px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.C {
+    background-color: #48dbfb;
+    position: relative;
+    bottom: 515px;
+    left: 50px;
+}
+
+.C .thers::before {
+    content: counter(user_counter);
+    background-color: #d2dae2;
+    width: 58px;
+    height: 35px;
+    border: 1px solid #1e272e;
+    margin-top: 275px;
+    margin-left: 160px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ef5777;
+    padding-top: 10px;
+    position: absolute;
+    top: -267px;
+    right: 430px;
+    border-radius: 10px;
+}
+
+.C .thers::after {
+    content: "";
+    border: 40px solid black;
+    border-color: transparent #d2dae2 transparent transparent;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: -9px;
+    right: 480px;
+    background-size: cover;
+}
+
+.pic3::after {
+    content: "";
+    background-image: url("images/dauter.jpeg");
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 12px;
+    bottom: 5px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.D {
+    background-color: #ef5777;
+    position: relative;
+    bottom: 528px;
+    left: 50px;
+}
+
+.D .fourth::before {
+    content: counter(user_counter);
+    background-color:  #0080ff;
+    width: 58px;
+    height: 35px;
+    border: 1px solid #1e272e;
+    margin-top: 385px;
+    margin-right: 160px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #b33939;
+    padding-top: 10px;
+    position: absolute;
+    top: -378px;
+    right: -150px;
+    border-radius: 10px;
+
+}
+
+.D .fourth::after {
+    content: "";
+    border: 40px solid black;
+    border-color: transparent transparent transparent #0080ff;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: -9px;
+    right: -60px;
+    background-size: cover;
+}
+
+.pic4::before {
+    content: "";
+    background-image: url("images/girl.jpg");
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.foot{
+  background-color: #ced6e0;
+padding: 18px;
+margin: -32px;
+width: 1747px;
+height: 15px;
+}
