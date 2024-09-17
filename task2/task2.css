@@ -1,0 +1,25 @@
+.p1 {
+    background-color: #aaa0dd;
+    margin: 100px 0px 0px 40px;
+    padding: 10px;
+    height: 150px;
+    width: 250px;
+}
+
+.p2 {
+    background-color: #273c75;
+    color: rgba(255, 255, 255, 0.933);
+    margin: 10px 0px 0px 40px;
+    padding: 10px;
+    height: 150px;
+    width: 250px;
+}
+
+.p3 {
+    background-color: #c5beeb;
+    color: rgba(255, 255, 255, 0.933);
+    margin: 10px 0px 0px 40px;
+    padding: 10px;
+    height: 150px;
+    width: 250px;
+}
