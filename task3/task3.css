@@ -1,0 +1,49 @@
+.my_p {
+    background-image: url("Pngtree.jpg");
+    background-size: contain;
+    color: #fff;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.div1 {
+    background-image: url("Pngtree.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 315px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.div2 {
+    background-image: url("Pngtree.jpg");
+    background-repeat: repeat-y;
+    background-position: right;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.div3 {
+    background-image: url("Pngtree.jpg");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 130px;
+    width: 658px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.div4 {
+    background-image: url("Pngtree.jpg");
+    background-repeat: repeat-y;
+    color: #fff;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
